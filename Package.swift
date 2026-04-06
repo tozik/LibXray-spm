@@ -1,18 +1,20 @@
 // swift-tools-version: 5.7
-
 import PackageDescription
 
 let package = Package(
-  name: "LibXray",
-  platforms: [.iOS(.v15), .macOS(.v13)],
-  products: [
-    .library(name: "LibXray", targets: ["LibXray"])
-  ],
-  targets: [
-    .binaryTarget(
-      name: "LibXray",
-      url: "https://github.com/tozik/LibXray-spm/releases/download/25.4.3/LibXray.xcframework.zip",
-      checksum: "4eb8b7c684590cfea30ffb63f3bc9b15d1160172a658906fdc2a4d68cede1fd4"
-    )
-  ]
+    name: "UpgrardedVPNSTunnel",
+    platforms: [.iOS(.v15), .macOS(.v12)],
+    products: [
+        .library(
+            name: "UpgrardedVPNSTunnel",
+            targets: ["UpgrardedVPNSTunnel"]
+        )
+    ],
+    targets: [
+        .binaryTarget(
+            name: "UpgrardedVPNSTunnel",
+            url: "https://github.com/VPN-Satoshi-Rep/TunnelKit/releases/download/v26.1.23/UpgrardedVPNSTunnel.xcframework.zip",
+            checksum: "164365d916e1929dcf146150fc47ed4893537289f51ab406aa4053fc7e017f4a"
+        )
+    ]
 )
