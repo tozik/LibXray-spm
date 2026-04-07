@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UpgrardedVPNSTunnel",
-            url: "https://github.com/VPN-Satoshi-Rep/TunnelKit/releases/download/26.1.23/UpgrardedVPNSTunnel.xcframework.zip",
+            url: "https://github.com/tozik/LibXray-spm/releases/download/26.1.23/UpgrardedVPNSTunnel.xcframework.zip",
             checksum: "164365d916e1929dcf146150fc47ed4893537289f51ab406aa4053fc7e017f4a"
         )
     ]
